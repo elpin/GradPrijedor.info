@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Dešavanja u gradu...</h1>
+		<table width="100%" border="0">
+		  <tr>
+		    <th scope="col"><a href="index.html">
+		      <button data-icon="home" data-iconpos="notext"> Button</button>
+		      </a>&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col"><a href="javascript:history.go(-1)">
+		      <button data-icon="back" data-iconpos="notext">Button</button>
+		      </a>&nbsp;</th>
+	      </tr>
+	  </table>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#kultura">Kultura</a></li>
+            <li><a href="#sport">Sport</a></li>
+			<li>Party</li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>www.gradprijedor.info</h4>
+	</div>
+</div>
+
+<div data-role="page" id="kultura">
+	<div data-role="header">
+		<h1>Kultura</h1>
+		<table width="100%" border="0">
+		  <tr>
+		    <th scope="col"><a href="index.html">
+		      <button data-icon="home" data-iconpos="notext"> Button</button>
+		      </a>&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col"><a href="javascript:history.go(-1)">
+		      <button data-icon="back" data-iconpos="notext">Button</button>
+		      </a>&nbsp;</th>
+	      </tr>
+	  </table>
+	</div>
+	<div data-role="content">	
+		<iframe src="http://www.prijedordanas.com/?cat=6" height="640" width="460" frameBorder="0" scrolling="vertical"seamless> </iframe>		
+	</div>
+	<div data-role="footer">
+		<h4>www.gradprijedor.info</h4>
+	</div>
+</div>
+
+<div data-role="page" id="sport">
+	<div data-role="header">
+		<h1>Sport</h1>
+		<table width="100%" border="0">
+		  <tr>
+		    <th scope="col"><a href="index.html">
+		      <button data-icon="home" data-iconpos="notext"> Button</button>
+		      </a>&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col"><a href="javascript:history.go(-1)">
+		      <button data-icon="back" data-iconpos="notext">Button</button>
+		      </a>&nbsp;</th>
+	      </tr>
+	  </table>
+	</div>
+	<div data-role="content">	
+		<iframe src="http://www.prijedordanas.com/?cat=7" height="640" width="460" frameBorder="0" scrolling="vertical"seamless> </iframe>		
+	</div>
+	<div data-role="footer">
+		<h4>www.gradprijedor.info</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Party</h1>
+	  <table width="100%" border="0">
+		  <tr>
+		    <th scope="col"><a href="index.html">
+		      <button data-icon="home" data-iconpos="notext"> Button</button>
+		      </a>&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col">&nbsp;</th>
+		    <th scope="col"><a href="javascript:history.go(-1)">
+		      <button data-icon="back" data-iconpos="notext">Button</button>
+		      </a>&nbsp;</th>
+	      </tr>
+	  </table>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>www.gradprijedor.info</h4>
+	</div>
+</div>
+
+</body>
+</html>

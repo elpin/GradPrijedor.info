@@ -4,7 +4,7 @@
     id        = "com.phonegap.example"
     version   = "1.0.0">
 
-<name>GradPrijedor.info</name>
+<name>GradPrijedor</name>
 
 <description>
 Demo android aplikacija portala www.gradprijedor.info.
@@ -13,5 +13,10 @@ Demo android aplikacija portala www.gradprijedor.info.
 <author href="http://www.gradprijedor.info" email="reklama@gradprijedor.info">
 ELPIN Prijedor 066/709-846
 </author>
+
+<icon src="mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 
 </widget>
